@@ -1,0 +1,124 @@
+<!-- filepath: c:\Users\manci\Documents\Laboratorio_Università\ING_SW\public\quantum.html -->
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Computing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body data-page="quantum">
+
+    <nav class="navbar blur large-menu">
+        <ul class="nav-links">
+            <li>
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <span class="menu-button">BACK</span>
+                    <div id="qrcode-back"></div>
+                </div>
+            </li>
+            <li>
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <span class="menu-button">NEXT</span>
+                    <div id="qrcode-next"></div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Quantum Computing</h1>
+    </header>
+
+    <main class="container">
+        <section class="description blur">
+            <h2>Computer Quantistici: Una Nuova Era del Calcolo</h2>
+            <p>
+                I computer quantistici rappresentano una rivoluzione nel mondo dell'informatica, promettendo di superare
+                i limiti dei computer classici in determinati compiti. A differenza dei bit tradizionali, che possono
+                assumere solo i valori 0 o 1, i qubit (bit quantistici) sfruttano i principi della meccanica
+                quantistica, come la sovrapposizione e l'entanglement, per eseguire calcoli complessi in modo
+                esponenzialmente più veloce.
+            </p>
+
+            <h3>Caratteristiche fondamentali</h3>
+            <p>
+                <strong>Qubit vs Bit:</strong><br>
+                Mentre un bit classico può trovarsi solo in uno stato (0 o 1), un qubit può esistere in entrambi gli
+                stati simultaneamente grazie al fenomeno della sovrapposizione quantistica.
+            </p>
+            <p>
+                <strong>Entanglement:</strong><br>
+                Questo fenomeno quantistico permette ai qubit di essere interconnessi in modo tale che lo stato di uno
+                influenza istantaneamente lo stato degli altri, indipendentemente dalla distanza.
+            </p>
+            <p>
+                <strong>Potenza di calcolo:</strong><br>
+                I computer quantistici possono risolvere problemi specifici in maniera esponenzialmente più veloce
+                rispetto ai computer tradizionali, con applicazioni in crittografia, ottimizzazione, simulazione
+                molecolare e molti altri campi.
+            </p>
+
+            <h2>Il Chip Majorana di Microsoft: Un Passo Avanti Significativo</h2>
+            <p>
+                Microsoft ha recentemente compiuto un passo avanti significativo nello sviluppo dei computer quantistici
+                con la presentazione del chip Majorana. Questo chip si basa su una particolare tipologia di qubit, i
+                qubit topologici, che promettono di essere più stabili e resistenti al "rumore" rispetto ai qubit
+                tradizionali.
+            </p>
+
+            <h3>Qubit Topologici</h3>
+            <p>
+                I qubit topologici si basano su stati collettivi degli elettroni che sono intrinsecamente resistenti al
+                rumore, ovvero alle interferenze esterne che possono compromettere i calcoli quantistici.
+                Questo tipo di qubit è considerato più promettente per la realizzazione di computer quantistici su larga
+                scala.
+            </p>
+
+            <h3>Significato del Nome</h3>
+            <p>
+                Il chip prende il nome dal fisico italiano Ettore Majorana, noto per i suoi contributi alla meccanica
+                quantistica e alla teoria delle particelle.
+                Majorana teorizzò l'esistenza di particelle con proprietà uniche, che potrebbero essere sfruttate per la
+                computazione quantistica.
+            </p>
+
+            <h3>Microsoft e la Ricerca Quantistica</h3>
+            <p>
+                Microsoft è da anni impegnata nella ricerca e nello sviluppo di tecnologie quantistiche, con l'obiettivo
+                di realizzare un computer quantistico universale.
+                L'azienda sta investendo in diverse aree della computazione quantistica, tra cui lo sviluppo di
+                hardware, software e algoritmi.
+                Il chip Majorana rappresenta un importante traguardo in questo percorso, dimostrando i progressi
+                compiuti nella realizzazione di qubit topologici.
+            </p>
+
+            <h3>Contesto e Prospettive</h3>
+            <p>
+                La computazione quantistica è un campo in rapida evoluzione, con importanti implicazioni per diversi
+                settori, tra cui la medicina, la chimica, la finanza e l'intelligenza artificiale.
+                La competizione nel settore è alta, con aziende come Google, IBM e altre che stanno investendo
+                pesantemente nella ricerca quantistica.
+            </p>
+            <p>
+                La realizzazione di un computer quantistico pienamente funzionante è una sfida complessa, ma i progressi
+                compiuti da Microsoft e altre aziende indicano che questo obiettivo potrebbe essere raggiunto in futuro,
+                portando a rivoluzioni in numerosi campi scientifici e tecnologici.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © 2025 Alberto Mancini, Quantum computing</p>
+    </footer>
+
+    <!-- Socket.IO + libreria QR + script comune -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

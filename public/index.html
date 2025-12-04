@@ -1,0 +1,108 @@
+<!-- filepath: c:\Users\manci\Documents\Laboratorio_Università\ING_SW\public\index.html -->
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Università di Perugia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body data-page="index">
+
+    <!-- Menu di navigazione con i due contenitori dei QR Code -->
+    <nav class="navbar blur large-menu">
+        <ul class="nav-links">
+            <li>
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <!-- BACK (solo testo, il QR è creato in script.js) -->
+                    <span class="menu-button">BACK</span>
+                    <div id="qrcode-back"></div>
+                </div>
+            </li>
+            <li>
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <!-- NEXT (solo testo, il QR è creato in script.js) -->
+                    <span class="menu-button">NEXT</span>
+                    <div id="qrcode-next"></div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Benvenuti sul portale dell’Università di Perugia</h1>
+        <p>Esplora il mondo della tecnologia con noi e scopri le ultime novità nel campo informatico.</p>
+    </header>
+
+    <main class="container">
+        <section class="description blur">
+            <h2>Informazioni sull’Università di Perugia</h2>
+
+            <p>
+                L'Università degli Studi di Perugia, uno degli atenei più antichi d'Italia e del mondo, vanta una storia
+                ricca e articolata che affonda le sue radici nel XIII secolo.
+            </p>
+
+            <h3>Storia e Fondazione</h3>
+            <p>
+                <strong>Origini medievali:</strong><br>
+                Già agli inizi del Duecento, Perugia ospitava un'istituzione dedicata all'insegnamento della medicina e
+                del diritto, sostenuta principalmente dal comune.<br>
+                Nel 1308, Papa Clemente V, con la bolla "Super Specula", conferì ufficialmente a Perugia la facoltà
+                di  "leggere" generaliter, segnando la nascita formale dell'Università.
+            </p>
+
+            <h3>Struttura e Sedi</h3>
+            <p>
+                L'ateneo è strutturato in 16 dipartimenti e 2 scuole, che coordinano le attività di ricerca e didattica
+                in diverse discipline. La sede centrale del rettorato e dell'amministrazione si trova a Perugia, ma
+                l'università ha sedi distaccate anche ad Assisi, Foligno, Narni e Terni.
+            </p>
+
+            <h3>Offerta formativa</h3>
+            <p>
+                L'Università di Perugia offre un'ampia gamma di corsi di laurea triennali, magistrali e a ciclo unico,
+                nonché dottorati di ricerca e master.
+                Le aree di studio spaziano dalle scienze umane e sociali alle scienze matematiche, fisiche e naturali,
+                dalla medicina all'ingegneria, all'agraria e molto altro.
+            </p>
+
+            <h3>Internazionalizzazione</h3>
+            <p>
+                L'ateneo promuove attivamente la mobilità internazionale di studenti e docenti attraverso programmi di
+                scambio e collaborazioni con università straniere.
+            </p>
+
+            <h3>Dipartimento di Matematica e Informatica</h3>
+            <p>
+                Il dipartimento si distingue per la qualità della ricerca e della didattica, con un'offerta formativa
+                completa e aggiornata. Le attività di ricerca spaziano dall'algebra all'analisi matematica, dalla
+                geometria all'intelligenza artificiale, dalla sicurezza informatica alla scienza dei dati.
+                Il dipartimento collabora con istituzioni di ricerca nazionali e internazionali, partecipando a progetti
+                di ricerca di rilevanza scientifica.
+            </p>
+
+            <h3>Situazione attuale</h3>
+            <p>
+                L'Università di Perugia è un ateneo moderno e dinamico, impegnato a fornire un'istruzione di alta
+                qualità e a promuovere la ricerca scientifica.
+                L'ateneo è attento alle esigenze del territorio e del mondo del lavoro, offrendo corsi di laurea che
+                preparano gli studenti ad affrontare le sfide del futuro.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © 2025 Alberto Mancini, Università degli Studi di Perugia</p>
+    </footer>
+
+    <!-- Socket.IO + libreria QR + script comune -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

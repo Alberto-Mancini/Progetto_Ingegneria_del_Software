@@ -1,0 +1,17 @@
+{
+  "name": "progetto-qrcode-nav",
+  "version": "1.0.0",
+  "description": "Progetto A.A. 2024/2025 di Ingegneria del Software: navigazione web remota tramite scansione QR code.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alberto Mancini",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.1"
+  }
+}
