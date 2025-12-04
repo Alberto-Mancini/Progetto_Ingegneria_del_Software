@@ -22,8 +22,8 @@ An interactive web application exploring the concept of **Cross-Device Interacti
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/progetto-qrcode-nav.git](https://github.com/YOUR_USERNAME/progetto-qrcode-nav.git)
-    cd progetto-qrcode-nav
+    git clone https://github.com/name/Progetto_Ingegneria_del_Software.git
+    cd Progetto_Ingegneria_del_Software
     ```
 
 2.  **Install dependencies:**
