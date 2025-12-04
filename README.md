@@ -51,6 +51,7 @@ To control the desktop app using your smartphone (if not on the same local Wi-Fi
 
 ## 👨‍💻 Author
 
-**Alberto Mancini** 
+**Alberto Mancini**
+
 University of Perugia  
 Course: Operating Systems
